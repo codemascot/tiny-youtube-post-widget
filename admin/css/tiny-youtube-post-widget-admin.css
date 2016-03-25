@@ -1,0 +1,20 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.widget-content .tiny-youtube-post-widget {
+	padding: 10px 0 5px 0;
+}
+
+.widget-content .widget-rnaby-typw-last {
+	padding-bottom: 30px;
+}
+
+.tiny-youtube-post-widget label {
+	padding: 0 0 5px 0;
+}
+
+.widget-content #widget-rnaby-typw-height-input input[type=number] {
+	width: 70px;
+}
