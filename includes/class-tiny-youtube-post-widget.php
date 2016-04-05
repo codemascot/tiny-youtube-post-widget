@@ -160,6 +160,8 @@ class Tiny_Youtube_Post_Widget {
 		$this->loader->add_action( 'admin_enqueue_scripts', $sodathemes_tywp_admin, 'enqueue_styles' );
 		$this->loader->add_action( 'admin_enqueue_scripts', $sodathemes_tywp_admin, 'enqueue_scripts' );
 
+		$this->loader->add_action( 'admin_menu', $sodathemes_tywp_admin, 'typw_admin_menu_page' );
+
 		// Adding meta box.
 		$this->loader->add_action( 'add_meta_boxes', $sodathemes_tywp_admin, 'sodathemes_add_meta_box' );
 		// Saving meta box's content.

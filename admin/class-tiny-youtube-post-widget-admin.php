@@ -210,5 +210,52 @@ class Tiny_Youtube_Post_Widget_Admin {
   
 		}
 	}
+	
+	public function register_extensions() {
+		$extension = array(
+			'woocom-add-multiple-products-pro' => array(
+				'name' => __( 'WooCom Add Multiple Products Pro', 'sodathemes' ),
+				'url' => 'http://sodathemes.com/product/woocom-add-multiple-products-pro',
+				'img_url' => plugin_dir_url( __FILE__ ) . 'img/sodathemes-wamp.png'
+			),
 
+			'woocom-straight-checkout-pro' => array(
+				'name' => __( 'WooCom Straight Checkout Pro', 'sodathemes' ),
+				'url' => 'http://sodathemes.com/product/woocom-straight-checkout-pro',
+				'img_url' => plugin_dir_url( __FILE__ ) . 'img/sodathemes-wsc.png'
+			),
+		);
+
+		return $extension;
+	}
+	// Admin Menu Page Calling function.
+	public function typw_admin_menu_page() {
+
+		add_menu_page(
+			'Tiny YouTube Post Widget', 
+			'TYPW', 
+			'manage_options', 
+			'tiny-youtube-post-widget', 
+			array( $this, 'typw_admin_settings_page' ) , 
+			'dashicons-layout',
+			30
+		);
+		//create new top-level menu
+		add_submenu_page(
+			'tiny-youtube-post-widget',
+			'Other Premium Products', 
+			'Go Premium', 
+			'read', 
+			'typw-other-products', 
+			array( $this, 'sodathemes_other_products' )
+		);
+	}
+	// Admin Settings Page Function
+	public function typw_admin_settings_page() {
+		include 'partials/html-sodathemes-current-product.php';
+	}
+	// Other Products Function
+	public function sodathemes_other_products() {
+		include 'partials/html-sodathemes-other-products.php';
+	}
 }
