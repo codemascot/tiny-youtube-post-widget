@@ -8,17 +8,17 @@
  * registers the activation and deactivation functions, and defines a function
  * that starts the plugin.
  *
- * @link              http://sodathemes.com
- * @since             3.0.0
+ * @link              https://bd.linkedin.com/in/rnaby
+ * @since             3.0.1
  * @package           Tiny_Youtube_Post_Widget
  *
  * @wordpress-plugin
  * Plugin Name:       Tiny YouTube Post Widget
- * Plugin URI:        http://sodathemes.com/product/tiny-youtube-post-widget-pro/
- * Description:       A plugin for embeding YouTube videos to sidebar through widget for each different posts.
- * Version:           3.0.0
- * Author:            SodaThemes
- * Author URI:        http://sodathemes.com
+ * Plugin URI:        https://github.com/rnaby
+ * Description:       This is a widget to display different YouTube videos in widget assigned for different posts or pages.
+ * Version:           3.0.1
+ * Author:            Khan Mohammad Rashedun-Naby
+ * Author URI:        https://bd.linkedin.com/in/rnaby
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       tiny-youtube-post-widget
@@ -64,7 +64,7 @@ require plugin_dir_path( __FILE__ ) . 'includes/class-tiny-youtube-post-widget.p
  * then kicking off the plugin from this point in the file does
  * not affect the page life cycle.
  *
- * @since    3.0.0
+ * @since    3.0.1
  */
 function run_tiny_youtube_post_widget() {
 

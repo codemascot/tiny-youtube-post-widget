@@ -7,8 +7,13 @@
 	<input type="text" id="<?php echo $this->get_field_id( 'rnaby-typw-video-link' ); ?>" class="widefat" name="<?php echo $this->get_field_name( 'rnaby-typw-video-link' ); ?>" value="<?php echo $instance['rnaby-typw-video-link']; ?>">
 </div>
 <div id="widget-rnaby-typw-height-input" class="tiny-youtube-post-widget">
-	<label><?php _e( 'Video Height:', $this->text_domain ); ?></label>
+	<label><?php _e( 'Height:', $this->text_domain ); ?></label>
 	<input type="number" id="<?php echo $this->get_field_id( 'rnaby-typw-height' ); ?>" name="<?php echo $this->get_field_name( 'rnaby-typw-height' ); ?>" value="<?php echo $instance['rnaby-typw-height']; ?>">
+	<label><?php _e( 'px', $this->text_domain ); ?></label>
+</div>
+<div id="widget-rnaby-typw-width-input" class="tiny-youtube-post-widget">
+	<label><?php _e( 'Width:', $this->text_domain ); ?></label>
+	<input type="number" id="<?php echo $this->get_field_id( 'rnaby-typw-width' ); ?>" name="<?php echo $this->get_field_name( 'rnaby-typw-width' ); ?>" value="<?php echo $instance['rnaby-typw-width']; ?>">
 	<label><?php _e( 'px', $this->text_domain ); ?></label>
 </div>
 <div class="tiny-youtube-post-widget widget-rnaby-typw-last">

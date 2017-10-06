@@ -19,8 +19,8 @@
  * For more information, see the following discussion:
  * https://github.com/tommcfarlin/WordPress-Plugin-Boilerplate/pull/123#issuecomment-28541913
  *
- * @link       http://sodathemes.com
- * @since      3.0.0
+ * @link       https://bd.linkedin.com/in/rnaby
+ * @since      3.0.1
  *
  * @package    Tiny_Youtube_Post_Widget
  */
