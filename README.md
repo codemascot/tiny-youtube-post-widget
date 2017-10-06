@@ -1,4 +1,4 @@
-# Tiny YouTube Post Widget
+# Tiny YouTube Post Widget `master`
 This is a widget to display different YouTube videos in widget assigned for different posts or pages.
 
 # Description
