@@ -1,4 +1,4 @@
-# Tiny YouTube Post Widget
+# Tiny YouTube Post Widget `1.0.0`
 This is a widget to display different YouTube videos in widget assigned for different posts or pages.
 
 # Description
