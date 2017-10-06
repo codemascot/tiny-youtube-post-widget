@@ -3,8 +3,8 @@
 /**
  * Fired during plugin deactivation
  *
- * @link       http://sodathemes.com
- * @since      3.0.0
+ * @link       https://bd.linkedin.com/in/rnaby
+ * @since      3.0.1
  *
  * @package    Tiny_Youtube_Post_Widget
  * @subpackage Tiny_Youtube_Post_Widget/includes
@@ -15,7 +15,7 @@
  *
  * This class defines all code necessary to run during the plugin's deactivation.
  *
- * @since      3.0.0
+ * @since      3.0.1
  * @package    Tiny_Youtube_Post_Widget
  * @subpackage Tiny_Youtube_Post_Widget/includes
  * @author     SodaThemes <sodathemes.ltd@gmail.com>
@@ -27,7 +27,7 @@ class Tiny_Youtube_Post_Widget_Deactivator {
 	 *
 	 * Long Description.
 	 *
-	 * @since    3.0.0
+	 * @since    3.0.1
 	 */
 	public static function deactivate() {
 
